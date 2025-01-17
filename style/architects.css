@@ -88,6 +88,7 @@
   .teams{
     align-items: center;
     margin-top: 69px;
+    margin-left: 61px;
   }
 
   .team-image-container{
@@ -117,6 +118,16 @@
   .feature-descriptions{
     margin-bottom: 32px;
   }
+
+  /* Some Facts */
+
+  .some-facts{
+    margin-left: 61px;
+  }
+  .section-title{
+    margin-bottom: 24px;
+  }
+  
 
   /* Responsive Media Query */
   @media screen and (max-width: 576px) {
@@ -161,6 +172,17 @@
     .our-features{
         justify-items: center;
         text-align: center;
-    }
-        
+    }        
+  }
+
+  /* Medium Size Devices */
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+        .teams{
+            flex-direction: column;
+            text-align: center;
+            justify-items: center;
+        }
+        .team-image-container{
+            margin-right: 0;
+        }
   }
