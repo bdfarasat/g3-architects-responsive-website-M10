@@ -127,6 +127,37 @@
   .section-title{
     margin-bottom: 24px;
   }
+  .facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+  .fact{
+    border: solid 1px #FF900E;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .fact-number{
+    font-weight: 600;
+    font-size: 2.81rem;
+    color: #424242;
+    /* margin: 0; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .fact-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #727272;
+    margin-top: 10px;
+  }
+  .fact-descriptiion{
+    max-width: 542px;
+  }
   
 
   /* Responsive Media Query */
@@ -172,7 +203,8 @@
     .our-features{
         justify-items: center;
         text-align: center;
-    }        
+    }
+          
   }
 
   /* Medium Size Devices */
