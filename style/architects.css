@@ -204,7 +204,10 @@
         justify-items: center;
         text-align: center;
     }
-          
+   .facts-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+   }       
   }
 
   /* Medium Size Devices */
